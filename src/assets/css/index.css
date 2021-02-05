@@ -1,0 +1,350 @@
+@font-face {
+    font-family: 'Optima';
+    src: url('../fonts/Optima.woff2') format('woff2'),
+        url('../fonts/Optima.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Optima';
+    src: url('../fonts/Optima-Bold.woff2') format('woff2'),
+        url('../fonts/Optima-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Optima';
+    src: url('../fonts/Optima-Medium.woff2') format('woff2'),
+        url('../fonts/Optima-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Optima';
+    src: url('../fonts/Optima-Italic.woff2') format('woff2'),
+        url('../fonts/Optima-Italic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'SignPainter';
+    src: url('../fonts/SignPainter-HouseScript.woff2') format('woff2'),
+        url('../fonts/SignPainter-HouseScript.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+body {
+    margin: 0;
+    font-family: 'Optima';
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #000;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.bg-color{
+   background-color: #00193E !important;
+}
+.tc-color{
+    color: #00193E;
+}
+.pad-lr-zero{
+    padding-left: 0;
+    padding-right: 0;
+}
+.mar-zero{
+    margin: 0;
+}
+.mar-t-sm{
+    margin-top: 1em;
+}
+.mar-b-sm{
+    margin-bottom: 1em;
+}
+.pad-zero{
+    padding: 0;
+}
+.pad-l-zero{
+    padding-left: 0;;
+}
+.pad-r-zero{
+    padding-right: 0;
+}
+.pad-t-xxs{
+    padding-top: 0.25em;
+}
+.pad-t-xs{
+    padding-top: 0.5em;
+}
+.pad-t-sm{
+    padding-top: 1em;
+}
+.pad-t-md{
+    padding-top: 3em;
+}
+.pad-t-lg{
+    padding-top: 5em;
+}
+.pad-b-xxs{
+    padding-bottom: 0.25em;
+}
+.pad-b-xs{
+    padding-bottom: 0.5em;
+}
+.pad-b-sm{
+    padding-bottom: 1em;
+}
+.pad-b-md{
+    padding-bottom: 3em;
+}
+.pad-b-lg{
+    padding-bottom: 5em;
+}
+.xsm{
+    font-size: 0.9em;
+}
+.tc-white{
+    color: #fff;
+}
+.css-tctv7l{
+    max-width: 1260px;
+}
+.navbar-nav .nav-link{
+    color: #fff;
+}
+.more-icons{
+    color: #AD9558;
+    margin: 0;
+    padding: 0;
+}
+.more-icons li {
+    float: left;
+    list-style: none;
+    padding: 0 0.8em;
+    font-size: 1.1em;
+}
+.find-button{
+    margin: auto 2em;
+}
+.find-button a{
+    background: #AD9558;
+    border: 2px solid #AD9558;
+    box-sizing: border-box;
+    border-radius: 30px;
+    padding-top: 0.3em !important;
+    padding-bottom: 0.4em !important;
+    padding-right: 2em !important;
+    padding-left: 2em !important;
+}
+.width100{
+    width: 100%;
+}
+.homepage-banner img{
+    width: 100%;
+}
+.cream-section{
+    background-color: #EFF3F8;
+}
+.cream-area h4{
+    color: #00193E;
+    font-weight: 700;
+}
+.cream-area p{
+    line-height: 27px;
+    margin-bottom: 2em;
+}
+.cream-area a{
+    border: 1px solid #00193E;
+    color: #00193E;
+    border-radius: 20px;
+    padding: 0.2em 0.8em;
+    vertical-align: middle;
+    float: left;
+}
+.recipe-box{
+    background: #FFFFFF;
+    box-shadow: -1px 1px 4px rgb(0 0 0 / 12%);
+    border-radius: 3px;
+    /* margin: 2em 0; */
+    overflow: hidden;
+}
+.recipe-info{
+    padding: 0.8em;
+}
+.recipe-info p{
+    color: #AD9558;
+}
+.recipe-icons{
+    color: #8D8D8D;
+    margin: 0;
+    padding: 0;
+}
+.recipe-icons li {
+    float: left;
+    list-style: none;
+    padding-left: 0.8em;
+    font-size: 1em;
+}
+.recipe-button{
+    border: 1px solid #AD9558;
+    color: #AD9558;
+    border-radius: 20px;
+    padding: 0.2em 0.8em;
+    vertical-align: middle;
+    margin-top: 2em;
+}
+.disp-tab{
+    display: table;
+}
+.disp-tab-cell{
+    display: table-cell;
+    vertical-align: top;
+}
+.owl-carousel .owl-nav .owl-prev, .owl-carousel .owl-nav .owl-next{
+    display: inline-block;
+    color: #AD9558;
+    border: 1px solid #AD9558;
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    margin: 0 4px;
+}
+.owl-prev .fa, .owl-next .fa{
+    width: 100%;
+    text-align: center;
+    line-height: 26px;
+    font-size: 15px;
+}
+.video-info{
+    padding: 1em 0;
+}
+.video-text h4{
+    color: #000000;
+    font-weight: 700;
+    margin-bottom: 5px;
+    font-size: 1.2rem;
+}
+.video-text p{
+    margin: 0;
+}
+.video-icon{
+    padding-right: 1em;
+}
+.video-icon p{
+    color: #AD9558;
+    margin: 0;
+}
+.recipe-header h2{
+    font-family: 'SignPainter';
+    color: #EFEADF;
+    font-weight: 500;
+    font-size: 17em;
+    margin-bottom: 0;
+}
+.recipe-header h2:after{
+    background-image: url(../images/recipe-spoon.png);
+    content: "";
+    width: 100%;
+    height: -webkit-fill-available;
+    /* top: 10px; */
+    background-position: center;
+    right: 0;
+    position: absolute;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: 60%;
+}
+.recipe-header h4{
+    color: #00193E;
+    font-weight: 700;
+}
+.owl-carousel.owl-loaded{
+    position: relative;
+}
+.owl-nav{
+    position: absolute;
+    bottom: 20px;
+    right: 0;
+    background: #fff;
+}
+.footer{
+    background-color: #00193E;
+}
+.footer-header{
+    /* max-width: fit-content;
+    padding-right: 3em; */
+}
+.footer-header h4{
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: 700;
+}
+.footer-header ul {
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    margin-bottom: 0.5em;
+}
+.footer-header ul li {
+    list-style: none;
+    font-size: 0.9em;
+}
+.subscribe-form .disp-tab-cell{
+    vertical-align: middle;
+}
+.subscribe-form h4{
+    font-size: 16px;
+    color: #fff;
+    padding-right: 1.2em;
+}
+.subscribe-form input{
+    width: 23vw;
+    margin-right: 1.2em;
+    background: #53647d;
+    border: 1px solid #fff;
+    border-radius: 30px;
+    padding-left: 1em;
+}
+.subscribe-form button{
+    background: #AD9558;
+    border: 1px solid #AD9558;
+    color: #fff;
+    border-radius: 40px;
+    width: 30px;
+    height: 30px;
+}
+
+.share-icons{
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+.share-icons li{
+    list-style: none;
+    float: left;
+    padding: 0 0.5em;
+    font-size: 1.3em;
+}
+.share-icons li:first-child{
+    font-size: 1em;
+    padding-top: 0.2em;
+}
+.share-icons li svg {
+    color: #AD9558;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #fff;
+    opacity: 1; /* Firefox */
+  }
